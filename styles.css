@@ -1,2 +1,7 @@
 
 /* Your CSS Code here. */
+.container{
+	background: grey;
+	width: 100%;
+	height: 100%;
+}
