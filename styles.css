@@ -1,6 +1,11 @@
 
 /* Your CSS Code here. */
 .container{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.cal{
 	background: grey;
 	width: 100%;
 	height: 100%;
