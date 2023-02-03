@@ -1,12 +1,35 @@
-
-/* Your CSS Code here. */
 .container{
 	display: flex;
 	justify-content: center;
 	align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+
 }
-.cal{
+.container .cal{
 	background: grey;
-	width: 100%;
-	height: 100%;
+	width: 300px;
+}
+
+.input-screen{
+    width: 100%;
+}
+
+.input-screen input{
+    width: 98%;
+    text-align: right;
+    height: 40px;
+}
+
+.digits-btn {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+}
+
+.digit{
+    border: 1px solid gainsboro;
+    text-align: center;
+    padding: 25px 0;
+    width: 100%;
 }
